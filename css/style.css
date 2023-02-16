@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(to right, 
+      rgb(240, 141, 141), rgb(210, 160, 68), rgb(236, 236, 106), rgb(139, 222, 139), rgb(131, 131, 222), rgb(122, 19, 195), rgb(228, 170, 228));
+  }
+  
+
+h1 {
+	text-align: center;
+    font-style: italic;
+    color: rgb(42, 64, 83);
+
+}
+
+#game-container {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.game-btn {
+	margin: 10px;
+    font-size: medium;
+    border-radius: 35%;
+    padding: 10px 20px;
+    background-color: rgb(215, 153, 199);
+    color: rgb(49, 48, 48);
+    border: none;
+    cursor: pointer;
+}
+
+.game-btn:hover {
+    background-color: rgb(152, 158, 160);
+  }
+
+p{
+    text-decoration:underline;
+}
+
+h3{
+    color: rgb(42, 64, 83);
+    font-style: italic;
+}
+
+input[type="name"] {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 8px;
+  }
+  
+#Go{
+    border-radius: 6px;
+    color: black;
+    background-color: rgb(209, 153, 172);
+}
+.Go:hover{
+   background-color:  rgb(152, 158, 160);
+}
+
+.hidden {
+	display: none;
+}

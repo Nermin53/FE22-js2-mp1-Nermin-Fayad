@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/java.js">defer</script>
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-database.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <h3>Ange ditt namn</h3>
+    <input type="name"> <button id="Go">Go</button>
+
+    <h1>Sten, sax, påse</h1>
+	<button id="start-btn">Starta spelet</button>
+
+	<div id="game-container" class="hidden">
+		<p>Välj ditt val:</p>
+		<button class="game-btn" id="rock-btn">Sten</button>
+		<button class="game-btn" id="paper-btn">Påse</button>
+		<button class="game-btn" id="scissors-btn">Sax</button>
+
+		<div id="result-container" class="hidden">
+			<p>Datorns val: <span id="computer-choice"></span></p>
+			<p>Ditt val: <span id="user-choice"></span></p>
+			<p>Resultat: <span id="result"></span></p>
+			<p>Poäng: <span id="score"></span></p>
+		</div>
+	</div>
+    
+</body>
+</html>
